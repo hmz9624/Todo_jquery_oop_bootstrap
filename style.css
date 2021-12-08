@@ -1,0 +1,55 @@
+    #container {
+        position: absolute;
+        border: 5px solid red;
+        border-radius: 7%;
+        width: 80%;
+        height: 500px;
+        background-color: rgb(31, 163, 141);
+        left: 10%;
+        top: 40px;
+        box-sizing: border-box;
+
+    }
+
+    #head {
+        float: left;
+        margin-left: 25%;
+        width: 50%;
+        text-align: center;
+        margin-top: 20px;
+        background-color: red;
+        border-bottom: 5px solid blue;
+        color: rgb(41, 2, 39);
+
+    }
+
+
+    #todoText {
+        clear: both;
+        margin-top: 135px
+    }
+
+    #todoInput {
+        margin-top: 20px;
+    }
+
+    .input-group {
+        margin-top: 10px;
+    }
+
+    #elemanSayisiBack {
+        float: right;
+        text-align: center;
+    }
+
+    /* elemanı dikey olarak ortalamak için bu yöntem */
+    #elemanSayisi {
+        position: relative;
+        display: inline-block;
+        vertical-align: center;
+        line-height: normal;
+        font-size: 50px;
+        margin-top: 10%;
+
+
+    }
